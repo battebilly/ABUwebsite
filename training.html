@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="university.png">
+    <title>Africa Blockchain University</title>
+    <script src="https://use.fontawesome.com/fc22c50f25.js"></script>
+</head>
+<body>
+    <div class="hero">
+        <div class="nav-bar">
+            <div class="nav-logo">
+                <img src="logo.png" alt="Abulogo">
+            </div>
+            <div class="nav-links" id="nav-links">
+                <span id="close" onclick="closeMenu()" class="close">&times;</span>
+                <ul>
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="#"><li>Training</li></a>
+                    <a href="teams.html"><li>Team</li></a>
+                    <a href="nftafrikapage.html"><li>NFT Afrika Initiative</li></a>
+                </ul>
+                
+            </div>
+            <h1 class="btn menubtn" id="show" onclick="showMenu()">MENU</h1>
+        </div>
+        <div class="banner-title banner-title-research">
+            <img src="startup.png" alt="">
+            <div class="content-details">
+                <h1 style="font-size: 20px;"><span>Our Partners<br> </span></h1>
+                <p>ABU works with various institutions in academia, business, state agencies, Blockchain projects, and civil society to run Blockchain training events for all kinds of people. Notably, we hope to engage with young budding techies, students, entrepreneurs, and creative artists. </p>
+            </div>
+            
+        </div>
+        <div class="banner-title banner-title-research">
+            <img src="research.png" alt="">
+            <div class="content-details">
+                <h1 style="font-size: 20px;"><span> Training Programs<br> </span></h1>
+                <p>We have online and on-site training, including workshops, seminars, fora, summer schools & Camps, Blockchain Academies, and much more. We are working and collaborating with various institutions and organizations throughout the world to run multiple training programs</p>
+                <button type="button" class="btn"><a style="outline: none;text-decoration: none; color: black; " href="events.html">Learn More</a></button>
+            </div>
+            
+        </div>
+        <div class="banner-title banner-title-research">
+            <img src="courses.png" alt="">
+            <div class="content-details">
+                <h1 style="font-size: 20px;"><span> Certifications<br> </span></h1>
+                <p>We are reintroducing the Blockchain 101 Excellence course in the first quarter of 2022. World-class Blockchain experts facilitate all our courses and training. Sign Up below to enroll</p>
+                <button type="button" class="btn"><a style="outline: none;text-decoration: none; color: black; " href="events.html">Sign UP</a></button>
+            </div>
+            
+        </div>
+
+    </div>
+    <div class="vertical-bar">
+        <div class="search-icon">
+        </div>
+        
+        <div class="social-icons">
+            <i class="fa fa-facebook" ></i>
+            <i class="fa fa-twitter" ></i>
+            <i class="fa fa-linkedin" ></i>
+            <i class="fa fa-instagram" ></i>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="grid-item">
+            <div class="footer-logo">
+                <i class="fa fa-graduation-cap"></i>
+                <span>Africa Blockchain University</span>
+            </div>
+            <p style="max-width: 250px; line-height: 1.6;">For more information Contact us at our social media handles.</p>
+            <i class="fa fa-phone">+23054877220</i> <br>
+            <i class="fa fa-clock-o">Mon - Sat 8.00 - 18.00</i> <br>
+            <i class="fa fa-map-marker">12th Sicom Towers Cybercity, Ebene Port, Louis, Mauritius.</i>
+        </div>
+        <div class="grid-item">
+            <h3>Latest News</h3>
+            <div class="news-feed" style="display: flex;">
+                <img src="news-image.jpeg" width="190" height="100" alt="news-feed">
+                <div>
+                    <p style="margin: 0  15px;">NFT work in Tanzania</p>
+                    <i class="fa fa-clock-o" style="margin: 0  15px;">Mon - Sat 8.00 - 18.00</i> <br>
+                </div>
+            </div>
+            <div class="news-feed" style="display: flex; margin-top: 10px;">
+                <img  src="news-image.jpeg" width="190" height="100" alt="news-feed">
+                <div>
+                    <p style="margin: 0  15px;">NFT work in Tanzania</p>
+                    <i class="fa fa-clock-o" style="margin: 0  15px;">Mon - Sat 8.00 - 18.00</i> <br>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item">
+            <h3>Company</h3>
+            <h5>Home</h5>
+            <h5>About Us</h5>
+            <h5>News</h5>
+        </div>
+        <div class="grid-item">
+            <h3>Contact Us</h3>
+            <div class="contact-footer">
+                <a href="mailto: info@africablockchain.university"><i class="fa fa-envelope">Email Us</i></a> <br>
+                <a href="https://t.co/G5p5Z65vcb"><i class="fa fa-facebook" >Facebook</i></a> <br>
+                <a href="https://twitter.com/Blockchain_ABU?s=09"><i class="fa fa-twitter" >Twitter</i></a> <br>
+                <a href="https://www.linkedin.com/company/africa-blockchain-university"><i class="fa fa-linkedin" >LinkedIn</i></a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        var show = document.getElementById("nav-links");
+        function showMenu(){
+            show.style.right="0";
+        }
+        function closeMenu(){
+            show.style.right="-300px";
+        }
+    </script>
+</body>
+</html>
