@@ -252,6 +252,52 @@ li:active{
     float: right;
     margin-left: 5%;
 }
+.paxful-widget-newsletter{
+    margin-top: 20px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 40vw auto;
+    float: right;
+    width: 89%;
+    padding: 10px 30px;
+    color: white;
+}
+.paxful-widget-newsletter h3{
+    font-family: 'Zen Kurenaido', sans-serif;
+    color: yellow;
+}
+.paxful-widget{
+    line-height: 1.6;
+}
+.paxful-btn {
+    margin-top: 10px;
+}
+.paxful-widget p{
+    max-width: 80%;
+}
+.newsletter{
+    margin-left: 20px;
+    
+}
+.newsletter form{
+    display: flex;
+    flex-direction: column;
+}
+.newsletter input[type="text"],
+.newsletter input[type="email"]{ 
+    margin: 1rem;
+    padding: 10px;
+    outline: none;
+}
+.newsletter input[type="submit"]{
+    padding: 10px;
+    width: 10vw;
+    outline: none;
+    text-transform: uppercase;
+    border: 1px solid black;
+    align-self: center;
+}
+
 .third-contents{
     background-color: white;
     max-width: 300px;
@@ -312,6 +358,9 @@ li:active{
         width: 96%;
         margin: 10px 5px;
     }
+    .paxful-widget-newsletter{
+        width: 85%;
+    }
 }
 @media(max-width: 960px){
     .display-contents{
@@ -342,7 +391,11 @@ li:active{
         width: 300px;
     }
 }
-
+@media(max-width: 744px){
+    .paxful-widget-newsletter{
+        padding: 20px 30px;
+    }
+}
 
 @media(max-width: 700px){
     .vertical-bar{
@@ -425,6 +478,39 @@ li:active{
         margin-left: 5px;
         font-size: 30px;
         display: block;
+    }
+    .paxful-widget-newsletter{
+        grid-template-columns: 100vw;
+        float: left;
+        
+    }
+    .newsletter{
+        margin-top: 20px;
+    }
+    .newsletter input[type="text"],
+    .newsletter input[type="email"]{ 
+        margin: 1rem;
+        padding: 10px;
+        max-width: 50vw;
+        
+    }
+    .newsletter input[type="submit"]{
+        align-self: flex-start;
+        margin-left: 10px;
+    }
+    .paxful-widget h3{
+        font-size: 20px;
+
+    }
+    .paxful-widget p{
+        font-size: 15px;
+    }
+    .newsletter input[type=submit]{
+        padding: 15px;
+        width: 100px;
+    }
+    .paxful-btn{
+        font-size: 15px;
     }
     .footer{
         grid-template-columns: auto;
